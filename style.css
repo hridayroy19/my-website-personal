@@ -1,0 +1,28 @@
+*{
+    margin: 0 auto;
+    padding: 0px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+    text-align: center;
+
+}
+.manu-bar ul{
+display: flex;
+gap: 2rem;
+list-style: none;
+color: rgb(0, 0, 0);
+margin-right:50px ;
+}
+
+.manu-bar ul li{
+   padding: 5px;
+border-radius: 6px;
+}
+.manu-bar ul li:hover{
+    color: blue;
+
+}
